@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-size: cover;
+}
+#heading{
+    text-align: center;
+    margin: 50px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: rgb(5, 255, 25);
+}
+.trivandrum{
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 20px;
+    padding: 20px;
+    padding-bottom: 10px;
+    background-color: rgba(231, 242, 243, 0.336);
+
+}
+a h4{
+    text-decoration: none;
+    color: rgb(207, 226, 36);
+    padding-top: 10px;
+
+}
+.kollam{
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 10px;
+    padding: 20px;
+    padding-bottom: 10px;
+    background-color: rgba(231, 242, 243, 0.336);
+}
