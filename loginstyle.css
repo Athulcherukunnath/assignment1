@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-size: cover;
+}
+.login-box{
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 70px;
+    margin-left: 33%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(224, 233, 139, 0.486);
+}
+footer{
+    background-color: white;
+    background-repeat: no-repeat;
+    margin-top: 10%;
+    text-align: center;
+    border: 1px solid white;
+}
+.in{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
