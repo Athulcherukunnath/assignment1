@@ -32,3 +32,16 @@
     color: red;
     margin-top: 5px;
 }
+.foot{
+    background-color: rgb(238, 98, 80);
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    text-align: center;
+    border: 1px solid white;
+}
+.in{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
