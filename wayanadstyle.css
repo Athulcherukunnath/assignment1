@@ -26,12 +26,14 @@
     text-indent: 15px;
 
 }
+/*content heading*/
 #subheadline{
     font-style: italic;
     text-decoration: underline;
     color: red;
     margin-top: 5px;
 }
+/*footer*/
 .foot{
     background-color: rgb(238, 98, 80);
     background-repeat: no-repeat;
