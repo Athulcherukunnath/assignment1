@@ -49,19 +49,22 @@
     </nav>
     <!--/navbar-->
     <!--login box-->
-    <form class="col-lg-4 login-box">
+    <form action="#" class="col-lg-4 login-box" id="formvalidate">
         <h2 style="text-align: center;">LOG IN</h2>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">User name</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email ID">
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email ID">
+          <small id="ed"></small>
         </div>
         <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label">Password</label>
           <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          <small id="pd"></small>
         </div><br>
         <button type="submit" class="btn btn-primary">Login</button>
       </form>
     <!--/login box-->
+    <script src="./script/login.js"></script>
     <!--footer-->
     <footer>
         <a class="in" href="#">Contact us </a>
@@ -73,5 +76,6 @@
         <h6>Copyright@KeralaTourism</h6>
     </footer>
     <!--/footer-->
+    
 </body>
 </html>

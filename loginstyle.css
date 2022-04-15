@@ -27,3 +27,11 @@ footer{
     color: black;
     padding: 15px;
 }
+.mb-3 input:focus{
+    outline: none;
+    border-color: black;
+}
+small{
+    color: red;
+    font-style: italic;
+}
