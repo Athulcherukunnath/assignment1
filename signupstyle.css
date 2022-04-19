@@ -10,7 +10,10 @@ body{
     padding: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: rgba(224, 233, 139, 0.486);
+    background-color: rgba(8, 8, 8, 0.753);
+}
+.form-label{
+    color: aliceblue;
 }
 footer{
     background-color: white;
@@ -24,4 +27,8 @@ footer{
     text-decoration: none;
     color: black;
     padding: 15px;
+}
+small{
+    color: red;
+    font-style: italic;
 }

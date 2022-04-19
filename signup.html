@@ -49,23 +49,27 @@
     </nav>
     <!--/navbar-->
     <!--signup tab-->
-    <form class="row g-3 col-lg-6 signupbox" style="margin-top: 50px; margin-left:22%">
-        <h2 style="text-align: center;">SIGN UP</h2><br>
-        <div class="col-md-6">
+    <form action="#" id="formvalidate" class="row g-3 col-lg-6 signupbox" style="margin-top: 50px; margin-left:22%">
+        <h2 style="text-align: center; color:aliceblue;">SIGN UP</h2><br>
+        <div class="col-md-6 effect">
           <label for="inputEmail4" class="form-label" >Email</label>
           <input type="email" class="form-control" id="inputEmail4" placeholder="Email ID">
+          <small id="ed"></small>
         </div>
         <div class="col-md-6">
           <label for="inputPassword4" class="form-label">Password</label>
           <input type="password" class="form-control" id="inputPassword4" placeholder="New Password">
+          <small id="pd"></small>
         </div>
         <div class="col-12">
           <label for="inputAddress" class="form-label">Address</label>
           <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          <small id="ad"></small>
         </div>
         <div class="col-12">
-          <label for="inputAddress2" class="form-label">Address 2</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          <label for="moblienumber" class="form-label">Mobile Number</label>
+          <input type="text" class="form-control" id="mobilenumber" placeholder="10 digit mobile number">
+          <small id="md"></small>
         </div>
         <div class="col-md-6">
           <label for="inputCity" class="form-label">City</label>
@@ -86,12 +90,14 @@
         <div class="col-md-2">
           <label for="inputZip" class="form-label">Zip</label>
           <input type="text" class="form-control" id="inputZip">
+          <small id="zd"></small>
         </div>
         <div class="col-12">
           <button type="submit" class="btn btn-primary">Sign in</button>
         </div>
       </form>
     <!--/signup tab-->
+    <script src="./script/signup.js"></script>
     <!--footer-->
     <footer>
       <a class="in" href="#">Contact us </a>
